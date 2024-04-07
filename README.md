@@ -5,9 +5,17 @@
 
 煊吘輟免緫䘹班毇襻蓐檠滧藐龝筹䀬班婀忣盌贠餷琀敠菊餎镁㶌緄鰮凶踱㪷㢒㙧琚颐倏蔢搖䂐㛋㒦㩋騍坍殓亶羚㔉疜逤丄瞼簃鋬嫉袕䡎
 
-windows端，使用前使用chcp 65001命令，将输入编码格式改为UTF-8。
 
 # C语言版本
-包括encoder.c与decoder.c两个源码文件，使用gcc进行编译。
+包括encoder.c与decoder.c两个源码文件，使用gcc进行编译:
+
+`gcc encoder.c -o encoder.exe`
+
+`gcc decoder.c -o decoder.exe`
+
+打开控制台，使用chcp 65001命令将编码改为UTF-8。
+
+运行`encoder.exe`/`decoder.exe`，按照提示输入待加密/解密文本，密钥，得到结果。
+
 
 
